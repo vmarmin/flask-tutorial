@@ -22,7 +22,7 @@ jobs:
         flake8 .
     - name: Check import sorting
       run: |
-        isort -c .
+        isort -c
     - name: Check code formatting
       run: |
         black --check .
