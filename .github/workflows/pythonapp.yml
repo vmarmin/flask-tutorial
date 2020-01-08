@@ -26,6 +26,3 @@ jobs:
     - name: Check code formatting
       run: |
         black --check .
-    - name: Test with flask
-      run: |
-        FLASK_APP=microblog.py flask run
