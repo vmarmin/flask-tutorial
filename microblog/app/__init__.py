@@ -11,4 +11,4 @@ migrate = Migrate(app, db)
 login = LoginManager(app)
 login.login_view = "login"
 
-from app import models, routes  # noqa
+from app import models, routes, errors  # noqa
