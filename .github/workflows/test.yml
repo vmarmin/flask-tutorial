@@ -1,4 +1,4 @@
-name: Python application
+name: quality
 
 on: [push]
 
@@ -17,12 +17,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    - name: Check flake8 linting
+    - name: Unit tests
       run: |
-        flake8 .
-    - name: Check import sorting
-      run: |
-        isort -c
-    - name: Check code formatting
-      run: |
-        black --check .
+        python tests.py
