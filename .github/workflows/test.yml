@@ -1,4 +1,4 @@
-name: quality
+name: test
 
 on: [push]
 
