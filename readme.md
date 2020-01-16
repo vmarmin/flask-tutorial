@@ -2,7 +2,6 @@
 
 [![Actions Status](https://github.com/vmarmin/flask-tutorial/workflows/quality/badge.svg)](https://github.com/vmarmin/flask-tutorial/actions)
 [![Actions Status](https://github.com/vmarmin/flask-tutorial/workflows/test/badge.svg)](https://github.com/vmarmin/flask-tutorial/actions)
-[![Actions Status](https://github.com/vmarmin/flask-tutorial/workflows/test/coverage.svg)](https://github.com/vmarmin/flask-tutorial/actions)
 
 ## Description
 
