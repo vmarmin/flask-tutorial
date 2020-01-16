@@ -1,5 +1,7 @@
 # Flask tutorial repository
 
+[![Actions Status](https://github.com/vmarmin/flask-tutorial/workflows/quality/badge.svg)](https://github.com/vmarmin/flask-tutorial/actions)
+
 ## Description
 
 This repository contains my code for the completion of the flask mega-tutorial by
