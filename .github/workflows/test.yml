@@ -21,7 +21,3 @@ jobs:
       run: |
         cd microblog
         coverage run --source=app tests.py
-    - name: Unit tests
-      run: |
-        cd microblog
-        coverage-badge -o coverage.svg
