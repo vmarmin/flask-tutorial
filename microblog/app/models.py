@@ -3,9 +3,10 @@ from hashlib import md5
 from time import time
 
 import jwt
-from app import app, db, login
 from flask_login import UserMixin
 from werkzeug.security import check_password_hash, generate_password_hash
+
+from app import app, db, login
 
 # Followers association table
 followers = db.Table(
