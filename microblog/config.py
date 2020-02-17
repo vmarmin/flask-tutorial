@@ -22,4 +22,4 @@ class Config(object):
     ADMINS = ["valentin.marmin@gmail.com"]
 
     # Content display
-    POSTS_PER_PAGE = 3
+    POSTS_PER_PAGE = 25
