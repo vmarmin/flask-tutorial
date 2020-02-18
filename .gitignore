@@ -6,3 +6,4 @@ logs
 .coverage
 coverage.svg
 *.pyc
+tmp/

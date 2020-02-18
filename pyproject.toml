@@ -16,5 +16,6 @@ exclude = '''
     | dist
   )/
   | microblog/migrations
+  | tmp
 )
 '''

@@ -1,5 +1,6 @@
 from config import Config
 from flask import Flask
+from flask_bootstrap import Bootstrap
 from flask_login import LoginManager
 from flask_mail import Mail
 import logging
@@ -15,6 +16,7 @@ migrate = Migrate(app, db)
 login = LoginManager(app)
 login.login_view = "login"
 mail = Mail(app)
+bootstrap = Bootstrap(app)
 
 from app import models, routes, errors  # noqa
 
